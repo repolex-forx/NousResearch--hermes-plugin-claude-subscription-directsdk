@@ -38,6 +38,21 @@
       ],
       "ast": [
         "aggregate/ast/ef73726cfaf2fa0ee041e55572f406e2c24fed83/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/ef73726cfaf2fa0ee041e55572f406e2c24fed83.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "psutil",
+          "ecosystem": "PYPI",
+          "version": "7.2.2",
+          "githubOrg": "giampaolo",
+          "githubRepo": "psutil",
+          "githubCommit": "9eea97dd6f1d16ea33f5144c8925f1ce7a0688e1",
+          "githubTag": "v7.2.2",
+          "githubUrl": "https://github.com/giampaolo/psutil",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/psutil/__init__.py"
+        }
       ]
     }
   ],
