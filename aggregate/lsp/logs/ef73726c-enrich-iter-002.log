@@ -1,0 +1,19 @@
+[2026-10-02T10:53:13Z] === ENRICH ITERATION 2 START | repo=NousResearch/hermes-plugin-claude-subscription-directsdk sha=ef73726c ===
+[2026-10-02T10:53:13Z] [iter=2] PHASE START: enrich repo=NousResearch/hermes-plugin-claude-subscription-directsdk sha=ef73726c runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/ef73726c-enrich-iter-002.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/ef73726cfaf2fa0ee041e55572f406e2c24fed83.nq.gz
+[2026-10-02T10:53:13Z] [iter=2] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-10-02T10:53:15Z] [iter=2] AST store loaded triples=201526 load_secs=2 mem_mb=395 MB
+[2026-10-02T10:53:15Z] [iter=2] Step 2: Finding LSP targets mem_mb=395 MB
+[2026-10-02T10:53:15Z] [iter=2] LSP targets found call_sites=1373 imports=154 extends=11 implements=0 secs=0
+[2026-10-02T10:53:15Z] [iter=2] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=395 MB
+[2026-10-02T10:53:16Z] [iter=2] Position index built positions=13857 nodes_with_types=18302 secs=1 mem_mb=395 MB
+[2026-10-02T10:53:16Z] [iter=2] Step 3: Starting LSP resolution mem_mb=395 MB already_completed_types=[] already_completed_files=0
+[2026-10-02T10:53:16Z] [iter=2] Resolving target type target_type=call_site count=1373
+[2026-10-02T10:53:46Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=0.5 files_done=7 resolved=578 errors=156 current=admission.py
+[2026-10-02T10:53:56Z] [iter=2] Target type resolved target_type=call_site resolved=871 errors=205 secs=40 mem_mb=395 MB
+[2026-10-02T10:53:56Z] [iter=2] Resolving target type target_type=import_statement count=154
+[2026-10-02T10:53:58Z] [iter=2] Target type resolved target_type=import_statement resolved=135 errors=0 secs=2 mem_mb=395 MB
+[2026-10-02T10:53:58Z] [iter=2] Resolving target type target_type=extends_clause count=11
+[2026-10-02T10:53:59Z] [iter=2] Target type resolved target_type=extends_clause resolved=10 errors=0 secs=1 mem_mb=395 MB
+[2026-10-02T10:54:01Z] [iter=2] Step 5: Writing final enrichment file triples=12616
+[2026-10-02T10:54:01Z] [iter=2] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/ef73726cfaf2fa0ee041e55572f406e2c24fed83.nq.gz size_kb=229
+[2026-10-02T10:54:01Z] [iter=2] PHASE END: enrich elapsed_s=49 elapsed_min=0.8 total_triples=12616
