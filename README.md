@@ -106,4 +106,4 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 [NousResearch/hermes-plugin-claude-subscription-directsdk](https://github.com/NousResearch/hermes-plugin-claude-subscription-directsdk)
 
 ---
-*Parsed on 2026-09-29 by [repolex](https://repolex.ai)*
+*Parsed on 2026-10-02 by [repolex](https://repolex.ai)*
